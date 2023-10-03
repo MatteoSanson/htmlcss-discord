@@ -9,9 +9,6 @@
 
 
 /* +++++  DEBUG  +++++  */
-.info-piede {
-    height: 70%;
-}
 
 /* +++++  /DEBUG  +++++  */
 
@@ -124,35 +121,44 @@ img {
 
 .left {
     width: 60%;
-    /* height: 100%;
-    background-color: #1e90ff; */
+    text-align: right;
 }
 
 .right {
     padding-top: 35px;
-    margin-left: 40px;
     width: 40%;
-    /* height: 100%;
-    background-color: #ffc0cb; */
+    text-align: left;
 }
 
 .grande {
-    height: 500px;
     background-color: #f5f5f5;
-}
-
-.contenuto {
-    background-color: #228b22;
 }
 
 h2 {
     font-size: 35px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .corpo {
     font-size: 12px;
     line-height: 20px;
+    text-align: center;
+}
+
+.contenuto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.violet {
+    color: white;
+    margin-top: 40px;
+    padding: 10px 15px;
+    background-color: #7289da;
+    border-radius: 15px;
 }
 /* +++++  /MAIN  +++++  */
 
@@ -163,11 +169,6 @@ h2 {
 .reverse {
     background-color: #f5f5f5;
 }
-
-/* .cambio {
-    display:  flex;
-} */
-
 
 /* +++++ /REVERSE +++++  */
 
