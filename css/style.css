@@ -188,6 +188,8 @@ footer {
     background-color: #23272a;
     width: 100%;
     align-items: center;
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .container-scuro {
@@ -197,20 +199,33 @@ footer {
     width: 60%;
     height: 80%;
     margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7289da;
 }
 
 .left-scuro {
     width: 25%;
 }
 
+h4 {
+    margin-bottom: 10px;
+}
+
 h4, h5 {
     color: #7289da;
-    text-align: center;
+    text-align: left;
+}
+
+.immagine {
+    width: 10%;
+    height: 10%;
+    display: inline-block;
 }
 
 .footer-piccolo {
     color: white;
     font-size:10px;
+    display: inline-block;
 }
 
 .right-scuro {
@@ -230,11 +245,18 @@ h5 {
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 ul > a {
     font-size: 10px;
 }
+
+.social{
+    color: white;
+    font-size: 12px;
+}
+
 /* +++++ /FOOTER NAVIGA +++++ */
 
 
