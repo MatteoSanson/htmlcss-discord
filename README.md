@@ -1,3 +1,3 @@
-# Scopo dell'esercizio è di ricreare il layout di pagina come da immagine.
+# Dalla struttura layout creata precedentemente, lo scopo dell'esercizio è ora di inserire i contenuti all'interno della struttura.
 
-![discord_blocks (1)](https://github.com/MatteoSanson/htmlcss-struttura-discord/assets/128544980/61e4d5a4-6bfa-47b0-b555-b932ab3622e9)
+![discord](https://github.com/MatteoSanson/htmlcss-discord/assets/128544980/160918f6-7d62-463a-8ead-0fb2b74bc3c6)
