@@ -9,7 +9,7 @@
 
 /* +++++  DEBUG  +++++  */
 header {
-    height: 365px;
+    height: 480px;
 }
 
 .testa {
@@ -54,21 +54,28 @@ header {
     padding: 4px;
 }
 
-.logo, .link, .login, .left, .right, .contenuto, .left-scuro, .info-piede, .logo-rosa, .botton {
-    border: 2px dashed black;
-}
 /* +++++  /COMMON  +++++  */
 
-
+/* +++++ BODY +++++  */
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* +++++ /BODY +++++  */
 
 /* +++++  HEADER  +++++ */
 header {
-    background-color: #add8e6;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 12px;
+}
 
 .giallo {
-    background-color: #daa520;
     width: 80%;
     align-items: stretch;
 }
@@ -86,14 +93,19 @@ header {
     text-align: center;
 }
 
-.piede {
-    background-color: #00008b;
+.info-piede {
+    width: 40%;
+    text-align: center;
+    color: white;
 }
 
-.info-piede {
-    background-color: #ee82ee;
-    width: 60%;
+.infopiede {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 25px;
 }
+
+
 /* +++++  /HEADER  +++++ */
 
 
