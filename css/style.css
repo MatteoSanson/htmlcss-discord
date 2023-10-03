@@ -47,7 +47,7 @@ header {
 a {
     color: white;
     text-decoration: none;
-    margin: 15px;
+    /* margin: 15px; */
     font-size: 12px;
 }
 
@@ -247,13 +247,15 @@ ul {
     padding-left: 0;
 }
 
-ul > a {
-    font-size: 10px;
+li > a {
+    font-size: 8px;
+    line-height: 18px;
 }
 
 .social{
     color: white;
     font-size: 12px;
+    padding-top: 10px;
 }
 
 /* +++++ /FOOTER NAVIGA +++++ */
