@@ -162,6 +162,16 @@ h2 {
     background-color: #7289da;
     border-radius: 15px;
 }
+
+.wave {
+    height: 100px;
+    background-image: url(/img/wave.svg);
+    opacity: 0.04;
+}
+
+.wave.reverse {
+    transform: rotateX(0.5turn);
+}
 /* +++++  /MAIN  +++++  */
 
 
