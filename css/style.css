@@ -169,8 +169,12 @@ h2 {
     opacity: 0.04;
 }
 
-.wave.reverse {
-    transform: rotateX(0.5turn);
+.container.contenuto h3 {
+    background-image: url(/img/stars.svg);
+    padding: 20px 120px;
+    background-position: center top;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 /* +++++  /MAIN  +++++  */
 
@@ -182,6 +186,9 @@ h2 {
     background-color: #f5f5f5;
 }
 
+.wave.reverse {
+    transform: rotateX(0.5turn);
+}
 /* +++++ /REVERSE +++++  */
 
 
